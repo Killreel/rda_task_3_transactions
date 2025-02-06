@@ -1,25 +1,5 @@
 -- Use our database
-USE ShopDB; 
-
-ALTER TABLE Products CHANGE WareHouseAmount WarehouseAmount INT;
-SELECT * FROM Customers WHERE ID = 1;
-
-INSERT INTO
-    Customers (
-        ID,
-        FirstName,
-        LastName,
-        Email,
-        Address
-    )
-VALUES (
-        1,
-        'John',
-        'Doe',
-        'john.doe@example.com',
-        '123 Main St'
-    );
-
+USE ShopDB;
 
 -- Some data should be created outside the transaction (here)
 
